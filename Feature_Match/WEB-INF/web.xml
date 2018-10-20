@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+
+<display-name>
+		Medical Image Classification
+</display-name>
+
+<!--Admin Related tags-->
+
+	<servlet>
+		<servlet-name>AdminLogin</servlet-name>
+		<servlet-class>com.admin.Login</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AdminLogin</servlet-name>
+		<url-pattern>/AdminLogin</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>Profile</servlet-name>
+		<servlet-class>com.admin.Profile</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Profile</servlet-name>
+		<url-pattern>/Profile</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>EditProfile</servlet-name>
+		<servlet-class>com.admin.EditProfile</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EditProfile</servlet-name>
+		<url-pattern>/EditProfile</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>ChangePass</servlet-name>
+		<servlet-class>com.admin.ChangePass</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ChangePass</servlet-name>
+		<url-pattern>/ChangePass</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>UploadFileAction</servlet-name>
+		<servlet-class>com.admin.UploadFileAction</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UploadFileAction</servlet-name>
+		<url-pattern>/UploadFileAction</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>UserList</servlet-name>
+		<servlet-class>com.admin.UserList</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserList</servlet-name>
+		<url-pattern>/UserList</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>ClassificationList</servlet-name>
+		<servlet-class>com.admin.ClassificationList</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ClassificationList</servlet-name>
+		<url-pattern>/ClassificationList</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ResetFeature</servlet-name>
+		<servlet-class>com.admin.ResetFeature</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ResetFeature</servlet-name>
+		<url-pattern>/ResetFeature</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>ExtractFeature</servlet-name>
+		<servlet-class>com.admin.ExtractFeature</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ExtractFeature</servlet-name>
+		<url-pattern>/ExtractFeature</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>ExtractFeature1</servlet-name>
+		<servlet-class>com.admin.ExtractFeature1</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ExtractFeature1</servlet-name>
+		<url-pattern>/ExtractFeature1</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>ExtractFeature2</servlet-name>
+		<servlet-class>com.admin.ExtractFeature2</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ExtractFeature2</servlet-name>
+		<url-pattern>/ExtractFeature2</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>ExtractFeature3</servlet-name>
+		<servlet-class>com.admin.ExtractFeature3</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ExtractFeature3</servlet-name>
+		<url-pattern>/ExtractFeature3</url-pattern>
+	</servlet-mapping>
+		
+		
+<!--User Related tags-->
+
+	<servlet>
+		<servlet-name>UserLogin</servlet-name>
+		<servlet-class>com.user.Login</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserLogin</servlet-name>
+		<url-pattern>/UserLogin</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>UserProfile</servlet-name>
+		<servlet-class>com.user.Profile</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserProfile</servlet-name>
+		<url-pattern>/UserProfile</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>EditUserProfile</servlet-name>
+		<servlet-class>com.user.EditProfile</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EditUserProfile</servlet-name>
+		<url-pattern>/EditUserProfile</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>ChangeUserPassword</servlet-name>
+		<servlet-class>com.user.ChangePass</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ChangeUserPassword</servlet-name>
+		<url-pattern>/ChangeUserPassword</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>SearchFileAction</servlet-name>
+		<servlet-class>com.user.SearchFileAction</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SearchFileAction</servlet-name>
+		<url-pattern>/SearchFileAction</url-pattern>
+	</servlet-mapping>	
+	
+	
+	<servlet>
+		<servlet-name>SearchImage</servlet-name>
+		<servlet-class>com.user.SearchImage</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SearchImage</servlet-name>
+		<url-pattern>/SearchImage</url-pattern>
+	</servlet-mapping>							
+		
+</web-app>

@@ -1,0 +1,21 @@
+body
+{
+	padding-top:10px;
+	background-image: linear-gradient(bottom, #B1C1F8 17%, #44589B 81%);
+	background-image: -o-linear-gradient(bottom, #B1C1F8 17%, #44589B 81%);
+	background-image: -moz-linear-gradient(bottom, #B1C1F8 17%, #44589B 81%);
+	background-image: -webkit-linear-gradient(bottom, #B1C1F8 17%, #44589B 81%);
+	background-image: -ms-linear-gradient(bottom, #B1C1F8 17%, #44589B 81%);
+}
+.c
+{
+	border:10px solid #351616;
+	-moz-border-radius:50px;
+	-webkit-border-radius:50px;
+	border-radius:50px;
+}
+#head
+{
+	color:#DFFAF9;
+	font-size:30px;
+}

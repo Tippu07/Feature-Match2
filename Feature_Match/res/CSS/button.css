@@ -1,0 +1,65 @@
+
+.gradientbuttons
+{
+	text-decoration: none;
+	color:black;
+	/*
+	padding: 8px 17px;
+	*/
+	padding: 8px 10px;
+	border: 5px solid #351616;
+	background-image: linear-gradient(bottom, #6E5219 17%, #D4961B 81%);
+	background-image: -o-linear-gradient(bottom, #6E5219 17%, #D4961B 81%);
+	background-image: -moz-linear-gradient(bottom, #6E5219 17%, #D4961B 81%);
+	background-image: -webkit-linear-gradient(bottom, #44589B 17%, #B1C1F8 81%);
+	background-image: -ms-linear-gradient(bottom, #44589B 17%, #B1C1F8 81%);
+	border-radius: 10px; /*w3c border radius*/
+	-moz-border-radius: 10px; /* mozilla border radius */
+	-webkit-border-radius: 10px; /* webkit border radius */
+	-webkit-box-shadow: 15px 18px 10px rgba(0,0,0,.5); /* webkit box shadow */
+	box-shadow: 15px 18px 10px rgba(0,0,0,.5); /* w3c box shadow */
+	-moz-box-shadow: 15x 18px 10px rgba(0,0,0,.5); /* mozilla box shadow */
+	cursor:hand;
+}
+
+a:hover
+{
+	background:#F2F2F2;
+	border: 10px solid #351616;
+}
+
+#a1:hover
+{
+	background:#F2F2F2;
+	border: 5px solid #351616;
+}
+
+p
+{
+	font-family: monospace;
+	font-style: italic;
+	font-variant: normal;
+	font-weight: bolder;
+	font-size: medium;
+	line-height: 200%;
+	word-spacing: 1.5ex;
+	letter-spacing: 0.1ex;
+	text-transform: capitalize;
+	text-indent: 0ex;
+	text-align:center;
+}
+
+#level
+{
+	font-family: monospace;
+	font-style: italic;
+	font-variant: normal;
+	font-weight: bolder;
+	font-size: medium;
+	line-height: 200%;
+	word-spacing: 1.5ex;
+	letter-spacing: 0.1ex;
+	text-transform: capitalize;
+	text-indent: 0ex;
+	text-align:center;
+}
